@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## 分支
+~~~
+git checkout -b dev             //创建本地分支
+git push origin dev             //推送分支到远程仓库
+git checkout -b dev origin/dev  //在本地master分支中同步远程仓库中的dev分支到本地的dev分支
+git branch                      //查看当前分支
+~~~
 ## Available Scripts
 
 In the project directory, you can run:
